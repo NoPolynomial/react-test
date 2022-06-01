@@ -1,0 +1,17 @@
+.post-link {
+    padding: 40px;
+    border: 2px solid black;
+    display: block;
+}
+
+.posts-list {
+    list-style: none;
+}
+
+.post-item:not(:first-child) {
+    margin-top: 20px;
+}
+
+.post-item:hover {
+    background-color: aqua;
+}
